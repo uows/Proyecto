@@ -12,6 +12,10 @@ document.getElementById("appointmentForm")
     this.reset();
 });
 
-function closeModal() {
+
+document.getElementById("closeModalBtn")
+.addEventListener("click", closeModal);
+
+function closeModal(){
     document.getElementById("modal").style.display = "none";
 }
